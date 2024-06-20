@@ -1,9 +1,11 @@
 // In vite it is necessary to use " .jsx " extension, wherever HTML content is used in js file
 
-function bye() {
+function Bye() {
+    
+
     return (
-        <h2>da</h2>
+        <h2>Hello </h2>
     )
 };
 
-export default bye
+export default Bye
