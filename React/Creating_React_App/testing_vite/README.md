@@ -89,14 +89,14 @@ const anotherElement = (
 - And then call it like (<anotherElement />) -> it will work perfectly fine 😊
 
 - **So Why my created reactElement not working ❓**
-- Because it is not a correct syntax , In the customReact file i have created my own function in which i have tell the code in what way i want to accept the link etc .
+- - Because it is not a correct syntax , In the customReact file i have created my own function in which i have tell the code in what way i want to accept the link etc .
 
--  Actually we called it , react's bundler was expecting  a function with some return statement , but here it is the object 
+- - Actually we called it , react's bundler was expecting  a function with some return statement , but here it is the object 
 
-- Maybe the meaning of the above object's logic is different as it  was created by some one else (who have developed the React or its bundler) , (So , he must have create its react acc to itself , it is not necessary that he have taken same thing as we in our custom react)🤯
+- - Maybe the meaning of the above object's logic is different as it  was created by some one else (who have developed the React or its bundler) , (So , he must have create its react acc to itself , it is not necessary that he have taken same thing as we in our custom react)🤯
 
-- Moreover there is a predefined method in React , if you want to do this i.e. **" React.createElement "**
-- **This is automatically injected by Babble**
+- - Moreover there is a predefined method in React , if you want to do this i.e. **" React.createElement "**
+- - **This is automatically injected by Babble**
 
 ```javascript
 
@@ -183,7 +183,7 @@ const reactElement = React.createElement(
 
 ```
  
-### 4. Key Concept IN Hello.jsx:
+### 4. Key Concept in Hello.jsx:
 
 - The function name "Bye" is internal to *Hello.js* and is not exposed directly when you import the default export.
 - When you import the default export, you can give any name you want. In this Case, you choose to name it 'Hello' in **App.js**
