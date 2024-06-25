@@ -1,0 +1,1 @@
+# Understand Props from README.md file that is present outside props file. 👌😁

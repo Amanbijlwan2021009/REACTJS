@@ -120,7 +120,16 @@ Here we go!
 
 We've established that a primary goal of Fiber is to enable React to take advantage of scheduling. Specifically, we need to be able to : 👇
 
-- pause work and come back to it later.
-- assign priority to different types of work.
-- reuse previously completed work.
-- abort work if it's no longer needed.
+> - pause work and come back to it later.
+> - assign priority to different types of work.
+> - reuse previously completed work.
+> - abort work if it's no longer needed.
+
+
+# Resource used :->
+
+**[Best resource for fibre and reconcilation -> acdlite](https://github.com/acdlite/react-fiber-architecture?tab=readme-ov-file)**    <br/><br/>
+**[Hitesh Choudhary - chaiaurcode -> Best Explanation](https://www.youtube.com/watch?v=MPCVGFvgVEQ&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&index=6)**
+<br/>
+
+# More I will update later
