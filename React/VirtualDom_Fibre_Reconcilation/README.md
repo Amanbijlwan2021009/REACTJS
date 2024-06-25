@@ -126,10 +126,10 @@ We've established that a primary goal of Fiber is to enable React to take advant
 > - abort work if it's no longer needed.
 
 
-# Resource used :->
+<!-- # Resource used :->
 
 **[Best resource for fibre and reconcilation -> acdlite](https://github.com/acdlite/react-fiber-architecture?tab=readme-ov-file)**    <br/><br/>
 **[Hitesh Choudhary - chaiaurcode -> Best Explanation](https://www.youtube.com/watch?v=MPCVGFvgVEQ&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&index=6)**
 <br/>
 
-# More I will update later
+# More I will update later -->
