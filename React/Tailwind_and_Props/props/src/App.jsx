@@ -1,11 +1,11 @@
-// import './App.css'
-
+import './App.css'
+import Card from './Card'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className='bg-green-400 text-black p-3'>Tailwind CSS</h1>
+      <Card username="Card 1" btnValue="Click Me"/>
+      <Card username="Card 2" btnValue="Visit Me"/>
     </>
   )
 }
