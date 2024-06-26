@@ -1,9 +1,6 @@
 ***In this file , we will be learning some important , cool concepts :*** 😁👌
 
-*Note: `This is not a professional note , but are the points to clear the concepts`*
-
-****
-****
+*Note: `This is not a professional note , but it contains some points that can clear your concepts...>Hope So🤞`* 
 
 # Virtual DOM 🤩
 
@@ -27,7 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 - What it does => It compare the 'real DOM' and its 'virtual DOM' and updates only those things that actually updates in UI.
 
-- *# What our browser do if there is no virtual dom :*
+- ***What our browser do if there is no virtual dom :***
 
    1. our browser removes full DOM and then again repaints the new DOM , This is known as **Page Reload** .<br/>
 
@@ -45,16 +42,17 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 > By this let's say 3 updates come one by one . So DOM will 1st handle first update and create Dom , then 2nd and then 3rd ,
 >
 > But what if we can pause for a bit though algo / optimization , By this we can save our time updating intermediate call , and can directly update according to last network call. **Can we do this ?**
+
+>The Answer is below
+
 <br/>
-
 ****
 ****
 
-# React Fibre Architecture 🤩:
-
+# React Fibre Architecture 🤩: 
 ## Introduction
 
-React Fiber is an ongoing reimplementation (`Now i think it is fully implemented , React is now using fibre for the updation of virtual dom in background`) of React's core algorithm. It is the culmination of over two years of research by the React team.<br/>
+React Fiber is an ongoing reimplementation (`Now it is fully implemented , React is now using fibre for the updation of virtual dom in background`) of React's core algorithm. It is the culmination of over two years of research by the React team.<br/>
 
 The goal of React Fiber is to increase its suitability for areas like animation, layout, and gestures. Its headline feature is **incremental rendering:** the ability to split rendering work into chunks and spread it out over multiple frames.(`means no need to update full , only key chunks / part of the tree will get update`)<br/>
 
@@ -81,14 +79,16 @@ I strongly suggest that you are familiar with the following resources before con
 
 - The algorithm React uses to differentiate one tree with another to determine which parts need to be changed
 
--   - ( I (Aman) understood the following from the above topic i.e. `Reconciliation is basically a differentiate algo in react , which compares both dom (real as well as virtual) and `)
+   - ( I (Aman) understood the following from the above topic i.e. `Reconciliation is basically a differentiate algo in react , which compares both dom (real as well as virtual) and `)
 
 
--   - (`Git also works on differentiation algo , that it checks difference in old file and new file and updates the difference` ,  againg this is the thing that i understood `Plz Correct if i'm wrong`)
+   - (`Git also works on differentiation algo , that it checks difference in old file and new file and updates the difference` ,  againg this is the thing that i understood `Plz Correct if i'm wrong`)
 
 **Update :**
 
 - A change in the data used to render a React app. Usually the result of `setState`. Eventually results in a re-render.
+
+****
 
 The central idea of React's API is to think of updates as if they cause the entire app to re-render. This allows the developer to reason declaratively, rather than worry about how to efficiently transition the app from any particular state to another (A to B, B to C, C to A, and so on).
 
@@ -127,10 +127,10 @@ We've established that a primary goal of Fiber is to enable React to take advant
 
 
 
-<!-- # Resource used :->
+# Resource used :->
 
 **[Best resource for fibre and reconcilation -> acdlite](https://github.com/acdlite/react-fiber-architecture?tab=readme-ov-file)**    <br/><br/>
 **[Hitesh Choudhary - chaiaurcode -> Best Explanation](https://www.youtube.com/watch?v=MPCVGFvgVEQ&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&index=6)**
 <br/>
 
-# More I will update later -->
+# More I will update later
