@@ -69,6 +69,6 @@ Includes a collection of significant React interview questions along with detail
 
 ****
 
-Feel free to explore these directories in any order that suits your learning style. Happy coding! 💻
+***Feel free to explore these directories in any order that suits your learning style. Happy coding! 💻***
 
 ****
